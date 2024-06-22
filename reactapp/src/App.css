@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+
+nav{
+  color: aliceblue;
+  background: #F55A5A;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo{
+  max-width: 100px;
+  margin-right: 0.5%;
+}
+
+.card{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.card--header{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.cardLoc--logo{
+  color:#F55A5A
+}
+
+.card--country{
+  font: Inter;
+  letter-spacing: 2px;
+}
+
+.card--mapLink{
+  font: Inter;
+  color: #918E9B;
+  margin-left: 2%;
+}
