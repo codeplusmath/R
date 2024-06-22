@@ -24,15 +24,25 @@ nav{
   flex-wrap: nowrap;
   align-items: center;
   margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 2%;
   margin-top: 7%;
   margin-bottom: 7%;
 }
 
+.card--img{
+  margin-right: 5%;
+}
+
 .card--header{
+  margin-bottom: -2%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.card--title{
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .cardLoc--logo{
@@ -48,4 +58,13 @@ nav{
   font: Inter;
   color: #918E9B;
   margin-left: 2%;
+}
+
+.card--para{
+  font-size: small;
+}
+
+.card--para-desc{
+  font-size: small;
+  margin-top: 1%;
 }

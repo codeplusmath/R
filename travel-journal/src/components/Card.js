@@ -5,16 +5,16 @@ export default function Card(props){
 
     return (
         <div className='card'>
-            <img src={props.item.imgURL} alt='location best view' className='card--logo'></img>
+            <img src={props.item.imgURL} alt='location best view' className='card--img'></img>
             <div className='card--desc'>
                 <div className='card--header'>
                     <FaLocationDot className='cardLoc--logo'/>
                     <p className='card--country'>{props.item.country.toUpperCase()}</p>
                     <a href={props.item.mapLocation} className='card--mapLink' target='_blank' rel='noreferrer'>View on Google Maps</a>
                 </div>
-                <h1>{props.item.name}</h1>
-                <b>{props.item.duration.startDate} - {props.item.duration.endDate}</b>
-                <p>{props.item.description}</p>
+                <h1 className='card--title'>{props.item.name}</h1>
+                <b className='card--para'>{props.item.duration.startDate} - {props.item.duration.endDate}</b>
+                <p className='card--para-desc'>{props.item.description}</p>
             </div>
         </div>
     )
